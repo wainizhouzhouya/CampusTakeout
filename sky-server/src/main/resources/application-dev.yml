@@ -1,0 +1,29 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: 123456
+  alioss:
+    endpoint: oss-cn-guangzhou.aliyuncs.com
+    access-key-id: LTAI5tKE5hgUyTQAdmFyN2Qx
+    access-key-secret: ZWQS8iwkAtXq6YuJ627rvW29XZujJi
+    bucket-name: web-cang-qiong
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+    database: 10
+  wechat:
+    appid: wxfdad9ff9ad3bcf65
+    secret: f5b4e84fc3197382dc2f5a1e6d7f2e13
+    mchid: 1561414331
+    mch-serial-no: 4B3B3DC35414AD50B1B755BAF8DE9CC7CF407606
+    private-key-file-path: D:\pay\apiclient_key.pem
+    api-v3-key: CZBK51236435wxpay435434323FFDuv3
+    we-chat-pay-cert-file-path: D:\pay\wechatpay_166D96F876F45C7D07CE98952A96EC980368ACFC.pem
+    notify-url: https://4ed4ae6e.r15.cpolar.top/notify/paySuccess
+    refund-notify-url: https://4ed4ae6e.r15.cpolar.top/notify/refundSuccess
+
